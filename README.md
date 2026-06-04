@@ -106,7 +106,7 @@
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Mayur-Purohit&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" width="95%" alt="GitHub Trophies" />
+    <img src="https://github-trophies.vercel.app/?username=Mayur-Purohit&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" width="95%" alt="GitHub Trophies" />
   </a>
 </p>
 
@@ -121,20 +121,33 @@
 
 <h2 align="center">📊 Real-Time GitHub Analytics</h2>
 
-<!-- Stats Card + Streak Card -->
 <p align="center">
-  <a href="https://github.com/Mayur-Purohit">
-    <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-stats.svg" width="49%" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/Mayur-Purohit">
-    <img src="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED" width="49%" alt="GitHub Streak" />
-  </a>
+  <img src="https://img.shields.io/badge/📊_Analytics-Live%20from%20@Mayur--Purohit-7C3AED?style=for-the-badge&labelColor=1a1b27&logo=github&logoColor=C084FC" alt="Live analytics" />
+  <img src="https://img.shields.io/badge/🔄_Auto--Update-4×%20Daily-A855F7?style=for-the-badge&labelColor=1a1b27" alt="Auto update" />
 </p>
 
-<!-- Top Languages -->
+<br>
+
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Mayur-Purohit">
+        <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-stats.svg" alt="GitHub Stats" />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Mayur-Purohit">
+        <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-streak.svg" alt="GitHub Streak" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/top-languages.svg" width="42%" alt="Top Languages" />
+    <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/top-languages.svg" width="55%" alt="Top Languages" />
   </a>
 </p>
 
@@ -167,11 +180,9 @@
 <h2 align="center">🐍 Contribution Snake</h2>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
+  <a href="https://github.com/Mayur-Purohit">
+    <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake eating contributions" />
+  </a>
 </p>
 
 <br>
