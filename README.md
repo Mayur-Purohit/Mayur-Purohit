@@ -115,8 +115,8 @@
 <!-- ═══════════════════════════════════════════════ -->
 <!--            📊 DYNAMIC GITHUB STATS             -->
 <!-- ═══════════════════════════════════════════════ -->
-<!-- ✦ All stats use LIVE API endpoints — always up-to-date in real-time -->
-<!-- ✦ No workflows needed — stats update automatically on every page load -->
+<!-- ✦ All stats auto-generate via GitHub Actions — always up-to-date -->
+<!-- ✦ Updates automatically every 6 hours and on every push          -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -125,7 +125,7 @@
 <!-- Stats Card -->
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://github-readme-stats.vercel.app/api?username=Mayur-Purohit&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=C084FC&icon_color=A855F7&text_color=c9d1d9&ring_color=7C3AED&rank_icon=github" width="49%" alt="GitHub Stats" />
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Mayur-Purohit&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=C084FC&icon_color=A855F7&text_color=c9d1d9&ring_color=7C3AED&rank_icon=github" width="49%" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/Mayur-Purohit">
     <img src="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED" width="49%" alt="GitHub Streak" />
@@ -135,7 +135,7 @@
 <!-- Top Languages -->
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mayur-Purohit&layout=compact&include_all_commits=true&count_private=true&langs_count=10&hide_border=true&bg_color=0d1117&title_color=C084FC&text_color=c9d1d9" width="42%" alt="Top Languages" />
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Mayur-Purohit&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=C084FC&text_color=c9d1d9&icon_color=A855F7" width="42%" alt="Top Languages" />
   </a>
 </p>
 
@@ -152,7 +152,7 @@
 
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur's%20Contribution%20Activity" width="100%" alt="Activity Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur%27s%20Contribution%20Activity" width="100%" alt="Activity Graph" />
   </a>
 </p>
 
