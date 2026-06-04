@@ -42,7 +42,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=Mayur-Purohit&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=C084FC&icon_color=A855F7&text_color=c9d1d9&ring_color=7C3AED&rank_icon=github
+          options: username=Mayur-Purohit&show_icons=true&include_all_commits=true&hide_border=true&bg_color=1a0b2e&title_color=F472B6&icon_color=EC4899&text_color=FBCFE8&ring_color=A855F7&rank_icon=github
           path: dist/stats/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -50,7 +50,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=Mayur-Purohit&layout=compact&include_all_commits=true&langs_count=8&hide_border=true&bg_color=0d1117&title_color=C084FC&text_color=c9d1d9&icon_color=A855F7
+          options: username=Mayur-Purohit&layout=compact&include_all_commits=true&langs_count=8&hide_border=true&bg_color=1a0b2e&title_color=F472B6&text_color=FBCFE8&icon_color=EC4899
           path: dist/stats/top-languages.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -71,8 +71,8 @@ jobs:
             return 1
           }
 
-          STREAK_URL="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED"
-          GRAPH_URL="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur%27s%20Contribution%20Activity"
+          STREAK_URL="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=1A0B2E&ring=A855F7&fire=EC4899&currStreakLabel=F472B6&sideLabels=C084FC&dates=F9A8D4&currStreakNum=FBCFE8&sideNums=FBCFE8&stroke=7C3AED"
+          GRAPH_URL="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=1a0b2e&color=EC4899&line=A855F7&point=F472B6&area_color=F472B6&area=true&hide_border=true&custom_title=Mayur%27s%20Contribution%20Activity"
 
           fetch_svg "$STREAK_URL" dist/stats/github-streak.svg || test -f dist/stats/github-streak.svg
           fetch_svg "$GRAPH_URL" dist/contribution-graph.svg || test -f dist/contribution-graph.svg
@@ -84,8 +84,8 @@ jobs:
         with:
           github_user_name: Mayur-Purohit
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=EC4899&color_dots=1a0b2e,2e1065,4c1d95,6d28d9,7c3aed,a855f7,ec4899,f472b6
+            dist/github-contribution-grid-snake-dark.svg?color_snake=F472B6&color_dots=0d0618,1a0b2e,2e1065,4c1d95,7c3aed,a855f7,ec4899,f472b6,fbcfe8
 
       - name: Write timestamps and status badges
         run: |
@@ -93,9 +93,9 @@ jobs:
           echo "$UPDATED" > dist/last-updated.txt
           BADGE_TIME=$(echo "$UPDATED" | sed 's/ /%20/g;s/:/%3A/g')
           curl -fsSL -o dist/badges/last-updated.svg \
-            "https://img.shields.io/badge/Last_Updated-${BADGE_TIME}-7C3AED?style=for-the-badge&labelColor=0d1117"
+            "https://img.shields.io/badge/Last_Updated-${BADGE_TIME}-EC4899?style=for-the-badge&labelColor=1a0b2e"
           curl -fsSL -o dist/badges/auto-sync.svg \
-            "https://img.shields.io/badge/Profile_Data-Auto_Synced-C084FC?style=for-the-badge&labelColor=0d1117&logo=github"
+            "https://img.shields.io/badge/Profile_Data-Auto_Synced-F472B6?style=for-the-badge&labelColor=1a0b2e&logo=github"
 
       - name: Verify required SVGs
         run: |
