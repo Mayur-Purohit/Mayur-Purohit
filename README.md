@@ -113,32 +113,36 @@
 <br>
 
 <!-- ═══════════════════════════════════════════════ -->
-<!--         📊 GITHUB ANALYTICS (AUTO-UPDATED)     -->
+<!--    📊 GITHUB ANALYTICS — YOUR REAL DATA        -->
 <!-- ═══════════════════════════════════════════════ -->
-<!-- Stats, languages & snake: GitHub Actions → output branch (every 6h + on push) -->
-<!-- Streak & activity graph: live GitHub data                                       -->
+<!-- Fetched from github.com/Mayur-Purohit via GitHub API · saved to output branch -->
+<!-- Workflow runs automatically 4×/day — keeps updating even when Actions tab is closed -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
-  <samp>Auto-refreshed via <a href="https://github.com/Mayur-Purohit/Mayur-Purohit/actions/workflows/profile-assets.yml">GitHub Actions</a> · every 6 hours & on each push to main</samp>
+  <a href="https://github.com/Mayur-Purohit/Mayur-Purohit/actions/workflows/profile-assets.yml">
+    <img src="https://github.com/Mayur-Purohit/Mayur-Purohit/actions/workflows/profile-assets.yml/badge.svg" alt="Auto-update status" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/github/last-commit/Mayur-Purohit/Mayur-Purohit/output?label=data%20refreshed&color=7C3AED&style=for-the-badge" alt="Last data refresh" />
 </p>
 
 <br>
 
-<!-- Row 1: Stats + Streak -->
+<!-- Row 1: Stats + Streak (your real commits, stars, PRs, streak) -->
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Mayur-Purohit">
-        <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-stats.svg" alt="GitHub Stats" />
+        <img src="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/stats/github-stats.svg" alt="GitHub Stats" />
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Mayur-Purohit">
-        <img src="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED" alt="GitHub Streak" />
+        <img src="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/stats/github-streak.svg" alt="GitHub Streak" />
       </a>
     </td>
   </tr>
@@ -146,10 +150,10 @@
 
 <br>
 
-<!-- Row 2: Top Languages -->
+<!-- Row 2: Top Languages (from your repositories) -->
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/top-languages.svg" alt="Top Languages" />
+    <img src="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/stats/top-languages.svg" alt="Top Languages" />
   </a>
 </p>
 
@@ -165,7 +169,7 @@
 
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur%27s%20Contribution%20Activity" width="100%" alt="Contribution Activity Graph" />
+    <img src="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/contribution-graph.svg" width="100%" alt="Contribution Activity Graph" />
   </a>
 </p>
 
@@ -174,16 +178,16 @@
 <h2 align="center">🐍 Contribution Snake</h2>
 
 <p align="center">
-  <samp>Generated from your real contribution grid · updates with Actions</samp>
+  <samp>Built from your real GitHub contribution calendar</samp>
 </p>
 
 <br>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/github-contribution-grid-snake.svg" />
+    <img alt="Snake eating contributions" src="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </p>
 

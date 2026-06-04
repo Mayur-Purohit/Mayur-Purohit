@@ -1,17 +1,22 @@
 name: Generate Profile Assets
 
 on:
+  # Auto-update 4× daily (real GitHub data — no manual Actions tab needed)
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 0,6,12,18 * * *"
   push:
     branches:
       - main
   workflow_dispatch:
 
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     permissions:
       contents: write
 
@@ -19,26 +24,15 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v4
 
-      - name: Fetch output branch
-        uses: actions/checkout@v4
-        with:
-          ref: output
-          path: output-branch
-        continue-on-error: true
+      - name: Prepare output folders
+        run: mkdir -p dist/stats
 
-      - name: Merge previous output into dist
-        run: |
-          if [ -d output-branch ]; then
-            cp -rn output-branch/. dist/ 2>/dev/null || true
-          fi
-          mkdir -p dist/stats
-
-      # ═══════════════ GITHUB STATS (no external Vercel) ═══════════════
+      # ═══════════════ REAL GITHUB STATS (API → SVG) ═══════════════
       - name: Generate GitHub Stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=Mayur-Purohit&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=C084FC&icon_color=A855F7&text_color=c9d1d9&ring_color=7C3AED&rank_icon=github
+          options: username=Mayur-Purohit&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=C084FC&icon_color=A855F7&text_color=c9d1d9&ring_color=7C3AED&rank_icon=github
           path: dist/stats/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -46,22 +40,42 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=Mayur-Purohit&layout=compact&include_all_commits=true&count_private=true&langs_count=8&hide_border=true&bg_color=0d1117&title_color=C084FC&text_color=c9d1d9&icon_color=A855F7
+          options: username=Mayur-Purohit&layout=compact&include_all_commits=true&langs_count=8&hide_border=true&bg_color=0d1117&title_color=C084FC&text_color=c9d1d9&icon_color=A855F7
           path: dist/stats/top-languages.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ═══════════════ CONTRIBUTION SNAKE ═══════════════
-      - name: Generate Snake Animation
+      # ═══════════════ REAL STREAK (from your contribution history) ═══════════════
+      - name: Generate Contribution Streak card
+        run: |
+          curl -fsSL -o dist/stats/github-streak.svg \
+            "https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED"
+          grep -q "<svg" dist/stats/github-streak.svg
+
+      # ═══════════════ REAL ACTIVITY GRAPH ═══════════════
+      - name: Generate Contribution Activity graph
+        run: |
+          curl -fsSL -o dist/contribution-graph.svg \
+            "https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur%27s%20Contribution%20Activity"
+          grep -q "<svg" dist/contribution-graph.svg
+
+      # ═══════════════ REAL CONTRIBUTION SNAKE ═══════════════
+      - name: Generate Snake from contribution grid
         uses: Platane/snk/svg-only@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           github_user_name: Mayur-Purohit
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Verify generated SVGs
+      - name: Write last-updated timestamp
+        run: echo "$(date -u +"%Y-%m-%d %H:%M UTC")" > dist/last-updated.txt
+
+      - name: Verify all generated SVGs
         run: |
           for f in dist/stats/github-stats.svg dist/stats/top-languages.svg \
+            dist/stats/github-streak.svg dist/contribution-graph.svg \
             dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg; do
             if ! grep -q "<svg" "$f"; then
               echo "Invalid or missing SVG: $f"
@@ -75,5 +89,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "chore: refresh profile stats and snake [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
