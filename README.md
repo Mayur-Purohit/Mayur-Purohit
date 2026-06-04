@@ -1,0 +1,244 @@
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  ✦  MAYUR PUROHIT — GitHub Profile README                      -->
+<!--  ✦  Color Palette: #7C3AED • #A855F7 • #C084FC (Purple Aura)   -->
+<!--  ✦  Every widget is 100% DYNAMIC — pulls real-time GitHub data  -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+<!-- ═══════════════ HEADER WAVE ═══════════════ -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:A855F7,100:C084FC&height=220&section=header&text=MAYUR%20PUROHIT&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=28&desc=Aspiring%20Software%20Engineer%20%E2%80%A2%20Full%20Stack%20Developer&descSize=18&descAlignY=52&descColor=EDE9FE" width="100%" />
+</p>
+
+<!-- ═══════════════ TYPING ANIMATION ═══════════════ -->
+
+<p align="center">
+  <a href="https://github.com/Mayur-Purohit">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1200&color=C084FC&center=true&vCenter=true&repeat=true&width=650&height=45&lines=%F0%9F%8E%93+B.Tech+CS+Student+%E2%80%A2+Full+Stack+Developer;%F0%9F%9A%80+React+%7C+Node.js+%7C+Python+%7C+TypeScript;%F0%9F%92%A1+Passionate+about+building+impactful+software;%F0%9F%A4%9D+Open+to+Internships+%26+Opportunities" alt="Typing Animation" />
+  </a>
+</p>
+
+<!-- ═══════════════ DYNAMIC PROFILE BADGES ═══════════════ -->
+<!-- ✦ These badges pull REAL data from GitHub APIs in real-time -->
+
+<p align="center">
+  <a href="https://github.com/Mayur-Purohit?tab=followers">
+    <img src="https://img.shields.io/github/followers/Mayur-Purohit?label=Followers&style=for-the-badge&color=7C3AED&labelColor=1a1b27&logo=github&logoColor=C084FC" alt="Followers" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Mayur-Purohit?tab=repositories">
+    <img src="https://img.shields.io/github/stars/Mayur-Purohit?affiliations=OWNER&label=Total+Stars&style=for-the-badge&color=7C3AED&labelColor=1a1b27&logo=github&logoColor=C084FC" alt="Stars" />
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Mayur-Purohit&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>
+
+<br>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--                   ABOUT ME                     -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<h2 align="center">🧑‍💻 Who I Am</h2>
+
+<p align="center">
+  <samp>
+    Hello! I'm <b>Mayur Purohit</b>, a 2nd Year B.Tech Computer Science student.<br><br>
+    I specialize in <b>Full-Stack Development</b>, taking ideas from concept to production.<br>
+    My passion lies in writing clean code, designing scalable architectures, and crafting<br>
+    seamless user experiences with modern technologies like React, Node.js, and Python.<br><br>
+    I'm always learning and evolving. Currently exploring <b>Cloud Architecture</b> &amp; <b>DevOps</b>.<br><br>
+    <i>"Building digital solutions that make a real-world impact."</i>
+  </samp>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/🎓_B.Tech_CS_—_2nd_Year-7C3AED?style=for-the-badge&labelColor=0d1117" alt="Education" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/💼_Aspiring_Software_Engineer-A855F7?style=for-the-badge&labelColor=0d1117" alt="Role" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/🟢_Open_to_Internships-C084FC?style=for-the-badge&labelColor=0d1117" alt="Status" />
+</p>
+
+<br>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--                  TECH STACK                    -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<h2 align="center">🛠️ Tech Arsenal</h2>
+
+<h4 align="center">⚡ Languages</h4>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java&theme=dark" alt="Languages" />
+</p>
+
+<h4 align="center">🚀 Frameworks & Libraries</h4>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,bootstrap&theme=dark" alt="Frameworks" />
+</p>
+
+<h4 align="center">🗄️ Databases & Cloud</h4>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mongodb,firebase,mysql,vercel,netlify&theme=dark" alt="Databases" />
+</p>
+
+<h4 align="center">🔧 Tools & Platforms</h4>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,vite,npm,docker,linux,bash&theme=dark" alt="Tools" />
+</p>
+
+<br>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--            🏆 GITHUB TROPHIES                  -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<h2 align="center">🏆 GitHub Trophies</h2>
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-trophies.vercel.app/?username=Mayur-Purohit&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" width="95%" alt="GitHub Trophies" />
+  </a>
+</p>
+
+<br>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--            📊 DYNAMIC GITHUB STATS             -->
+<!-- ═══════════════════════════════════════════════ -->
+<!-- ✦ All stats use LIVE API endpoints — always up-to-date              -->
+<!-- ✦ Streak Stats uses streak-stats.demolab.com (always reliable)      -->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<h2 align="center">📊 Real-Time GitHub Analytics</h2>
+
+<!-- Row 1: Stats Card + Streak Card -->
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50%" align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-stats.svg" />
+      <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-stats.svg" width="100%" alt="GitHub Stats" />
+    </picture>
+</td>
+<td width="50%" align="center">
+  <a href="https://github.com/Mayur-Purohit">
+    <img src="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED" width="100%" alt="GitHub Streak" />
+  </a>
+</td>
+</tr>
+</table>
+
+<!-- Row 2: Top Languages -->
+<p align="center">
+  <a href="https://github.com/Mayur-Purohit">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/top-languages.svg" />
+      <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/top-languages.svg" width="42%" alt="Top Languages" />
+    </picture>
+  </a>
+</p>
+
+<br>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--              📈 CONTRIBUTION GRAPH             -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<h2 align="center">📈 Contribution Graph</h2>
+
+<p align="center">
+  <a href="https://github.com/Mayur-Purohit">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur's%20Contribution%20Activity" width="95%" alt="Activity Graph" />
+  </a>
+</p>
+
+<br>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--             🐍 SNAKE ANIMATION                 -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<h2 align="center">🐍 Contribution Snake</h2>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" width="95%" />
+  </picture>
+</p>
+
+<br>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--                 💬 DEV QUOTE                   -->
+<!-- ═══════════════════════════════════════════════ -->
+<!-- ✦ Quote automatically updates daily with GitHub Actions         -->
+<!-- ✦ Fully responsive - scales perfectly on mobile and desktop     -->
+<!-- ✦ Uses vertical layout optimized for mobile viewing             -->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<h2 align="center">💬 Dev Quote of the Day</h2>
+
+<!-- Mobile-Optimized Responsive Quote -->
+<picture>
+  <source media="(max-width: 768px)" srcset="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight&border=true&animation=grow_out_in&quoteCategory=programming" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true&animation=grow_out_in&quoteCategory=programming" alt="Dev Quote" style="max-width: 100%; height: auto;" />
+</picture>
+
+<!-- Alternative: Single responsive quote that adapts automatically -->
+<!--
+<p align="center">
+  <a href="https://github.com/Mayur-Purohit">
+    <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight&border=true&animation=grow_out_in&quoteCategory=programming" alt="Dev Quote" style="max-width: 100%; width: auto; height: auto;" />
+  </a>
+</p>
+-->
+
+<br>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--              🤝 CONNECT WITH ME                -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<h2 align="center">🤝 Let's Connect</h2>
+
+<p align="center">
+  <a href="https://github.com/Mayur-Purohit">
+    <img src="https://img.shields.io/badge/GitHub-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="mailto:purohitmayur66@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-A855F7?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/mayur-purohit-491302322">
+    <img src="https://img.shields.io/badge/LinkedIn-C084FC?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
+
+<br>
+
+<!-- ═══════════════ FOOTER WAVE ═══════════════ -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C084FC,50:A855F7,100:7C3AED&height=150&section=footer" width="100%" />
+</p>

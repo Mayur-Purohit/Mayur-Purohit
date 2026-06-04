@@ -1,0 +1,64 @@
+name: Generate GitHub Stats Cards
+
+on:
+  # Fully automatic — runs every 6 hours
+  schedule:
+    - cron: "0 */6 * * *"
+
+  # Runs automatically on every push to main
+  push:
+    branches:
+      - main
+
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create output directory
+        run: mkdir -p dist/stats
+
+      # ═══════════════ GITHUB STATS CARD ═══════════════
+      - name: Generate GitHub Stats Card
+        run: |
+          curl -s -o dist/stats/github-stats.svg \
+            "https://github-readme-stats-sigma-five.vercel.app/api?username=Mayur-Purohit&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=C084FC&icon_color=A855F7&text_color=c9d1d9&ring_color=7C3AED&rank_icon=github"
+          # Verify the file is a valid SVG (not an error page)
+          if grep -q "<svg" dist/stats/github-stats.svg; then
+            echo "✅ GitHub Stats card generated successfully"
+          else
+            echo "❌ GitHub Stats card generation failed!"
+            exit 1
+          fi
+
+      # ═══════════════ TOP LANGUAGES CARD ═══════════════
+      - name: Generate Top Languages Card
+        run: |
+          curl -s -o dist/stats/top-languages.svg \
+            "https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Mayur-Purohit&layout=compact&include_all_commits=true&count_private=true&langs_count=10&hide_border=true&bg_color=0d1117&title_color=C084FC&text_color=c9d1d9"
+          # Verify the file is a valid SVG
+          if grep -q "<svg" dist/stats/top-languages.svg; then
+            echo "✅ Top Languages card generated successfully"
+          else
+            echo "❌ Top Languages card generation failed!"
+            exit 1
+          fi
+
+      # ═══════════════ PUSH TO OUTPUT BRANCH ═══════════════
+      - name: Push generated SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
