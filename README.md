@@ -115,37 +115,35 @@
 <!-- ═══════════════════════════════════════════════ -->
 <!--            📊 DYNAMIC GITHUB STATS             -->
 <!-- ═══════════════════════════════════════════════ -->
-<!-- ✦ All stats use LIVE API endpoints — always up-to-date              -->
-<!-- ✦ Streak Stats uses streak-stats.demolab.com (always reliable)      -->
+<!-- ✦ All stats use LIVE API endpoints — always up-to-date in real-time -->
+<!-- ✦ No workflows needed — stats update automatically on every page load -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <h2 align="center">📊 Real-Time GitHub Analytics</h2>
 
 <!-- Row 1: Stats Card + Streak Card -->
-<table align="center" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="50%" align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-stats.svg" />
-      <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-stats.svg" width="100%" alt="GitHub Stats" />
-    </picture>
-</td>
-<td width="50%" align="center">
-  <a href="https://github.com/Mayur-Purohit">
-    <img src="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED" width="100%" alt="GitHub Streak" />
-  </a>
-</td>
-</tr>
-</table>
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://github.com/Mayur-Purohit">
+          <img src="https://github-readme-stats.vercel.app/api?username=Mayur-Purohit&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=C084FC&icon_color=A855F7&text_color=c9d1d9&ring_color=7C3AED&rank_icon=github&cache_seconds=0" width="100%" alt="GitHub Stats" />
+        </a>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://github.com/Mayur-Purohit">
+          <img src="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED" width="100%" alt="GitHub Streak" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <!-- Row 2: Top Languages -->
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/top-languages.svg" />
-      <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/top-languages.svg" width="42%" alt="Top Languages" />
-    </picture>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mayur-Purohit&layout=compact&include_all_commits=true&count_private=true&langs_count=10&hide_border=true&bg_color=0d1117&title_color=C084FC&text_color=c9d1d9&cache_seconds=0" width="42%" alt="Top Languages" />
   </a>
 </p>
 
@@ -154,6 +152,7 @@
 <!-- ═══════════════════════════════════════════════ -->
 <!--              📈 CONTRIBUTION GRAPH             -->
 <!-- ═══════════════════════════════════════════════ -->
+<!-- ✦ Live contribution activity graph — updates in real-time -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -161,15 +160,17 @@
 
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur's%20Contribution%20Activity" width="95%" alt="Activity Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur's%20Contribution%20Activity" width="100%" alt="Activity Graph" />
   </a>
 </p>
 
 <br>
 
 <!-- ═══════════════════════════════════════════════ -->
-<!--             🐍 SNAKE ANIMATION                 -->
+<!--             🐍 CONTRIBUTION SNAKE              -->
 <!-- ═══════════════════════════════════════════════ -->
+<!-- ✦ Snake animation auto-generates from your GitHub contributions -->
+<!-- ✦ Updates automatically via GitHub Actions workflow             -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -179,7 +180,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" width="95%" />
+    <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </p>
 
