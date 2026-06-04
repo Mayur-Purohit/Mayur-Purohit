@@ -122,28 +122,20 @@
 
 <h2 align="center">📊 Real-Time GitHub Analytics</h2>
 
-<!-- Row 1: Stats Card + Streak Card -->
-<div align="center">
-  <table border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td width="50%" align="center">
-        <a href="https://github.com/Mayur-Purohit">
-          <img src="https://github-readme-stats.vercel.app/api?username=Mayur-Purohit&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=C084FC&icon_color=A855F7&text_color=c9d1d9&ring_color=7C3AED&rank_icon=github&cache_seconds=0" width="100%" alt="GitHub Stats" />
-        </a>
-      </td>
-      <td width="50%" align="center">
-        <a href="https://github.com/Mayur-Purohit">
-          <img src="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED" width="100%" alt="GitHub Streak" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<!-- Row 2: Top Languages -->
+<!-- Stats Card -->
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mayur-Purohit&layout=compact&include_all_commits=true&count_private=true&langs_count=10&hide_border=true&bg_color=0d1117&title_color=C084FC&text_color=c9d1d9&cache_seconds=0" width="42%" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Mayur-Purohit&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=C084FC&icon_color=A855F7&text_color=c9d1d9&ring_color=7C3AED&rank_icon=github" width="49%" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/Mayur-Purohit">
+    <img src="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED" width="49%" alt="GitHub Streak" />
+  </a>
+</p>
+
+<!-- Top Languages -->
+<p align="center">
+  <a href="https://github.com/Mayur-Purohit">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mayur-Purohit&layout=compact&include_all_commits=true&count_private=true&langs_count=10&hide_border=true&bg_color=0d1117&title_color=C084FC&text_color=c9d1d9" width="42%" alt="Top Languages" />
   </a>
 </p>
 
@@ -199,7 +191,7 @@
 
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+    <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight&border=true" width="350" alt="Random Dev Quote" />
   </a>
 </p>
 
