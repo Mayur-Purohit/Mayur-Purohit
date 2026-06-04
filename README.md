@@ -35,7 +35,7 @@
 
 <!-- ═══════════════ ABOUT ME ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=36&gradient=rainbow&color=0:6D28D9,50:EC4899,100:F472B6&section=footer&text=%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%20Who%20I%20Am&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=gradient&color=0:6D28D9,50:EC4899,100:F472B6&height=48&section=footer&text=%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%20Who%20I%20Am&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%" />
 
 <br>
 
@@ -64,7 +64,7 @@
 
 <!-- ═══════════════ TECH STACK ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=36&gradient=rainbow&color=0:7C3AED,50:EC4899,100:F472B6&section=footer&text=%F0%9F%9B%A0%EF%B8%8F%20Tech%20Arsenal&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=gradient&color=0:7C3AED,50:EC4899,100:F472B6&height=48&section=footer&text=%F0%9F%9B%A0%EF%B8%8F%20Tech%20Arsenal&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%" />
 
 <br>
 
@@ -92,7 +92,7 @@
 
 <!-- ═══════════════ TROPHIES ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=36&gradient=rainbow&color=0:6D28D9,50:EC4899,100:F472B6&section=footer&text=%F0%9F%8F%86%20GitHub%20Trophies&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=gradient&color=0:6D28D9,50:EC4899,100:F472B6&height=48&section=footer&text=%F0%9F%8F%86%20GitHub%20Trophies&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%" />
 
 <br>
 
@@ -106,18 +106,20 @@
 
 <!-- ═══════════════ ANALYTICS ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=36&gradient=rainbow&color=0:7C3AED,50:EC4899,100:F472B6&section=footer&text=%F0%9F%93%8A%20GitHub%20Analytics&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,40:7C3AED,70:EC4899,100:F472B6&height=80&section=footer&text=%F0%9F%93%8A%20GitHub%20Analytics&fontSize=26&fontColor=ffffff&animation=twinkling" width="100%" />
 
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/badges/auto-sync.svg" alt="Profile data auto-synced" />
+  <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/badges/auto-sync.svg" alt="Live auto-sync active" />
   &nbsp;
-  <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/badges/last-updated.svg" alt="Last updated" />
+  <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/badges/last-updated.svg" alt="Last data refresh time" />
 </p>
 
 <p align="center">
-  <samp>Live stats from <b>@Mayur-Purohit</b> · purple-pink theme · auto-refresh 4× daily</samp>
+  <img src="https://img.shields.io/badge/Source-@Mayur--Purohit-7C3AED?style=flat-square&labelColor=1a0b2e&logo=github&logoColor=F472B6" alt="Data source" />
+  <img src="https://img.shields.io/badge/Schedule-4×%20per%20day-EC4899?style=flat-square&labelColor=1a0b2e" alt="Update schedule" />
+  <img src="https://img.shields.io/badge/Theme-Purple%20→%20Pink-F472B6?style=flat-square&labelColor=1a0b2e" alt="Theme" />
 </p>
 
 <br>
@@ -149,7 +151,7 @@
 
 <!-- ═══════════════ CONTRIBUTIONS ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=36&gradient=rainbow&color=0:6D28D9,50:EC4899,100:F472B6&section=footer&text=%F0%9F%93%88%20Contribution%20Activity&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=gradient&color=0:6D28D9,50:EC4899,100:F472B6&height=48&section=footer&text=%F0%9F%93%88%20Contribution%20Activity&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%" />
 
 <br>
 
@@ -161,13 +163,7 @@
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=36&gradient=rainbow&color=0:7C3AED,50:EC4899,100:F472B6&section=footer&text=%F0%9F%90%8D%20Contribution%20Snake&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%" />
-
-<br>
-
-<p align="center">
-  <samp>Snake path built from your real contribution calendar</samp>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=gradient&color=0:7C3AED,50:EC4899,100:F472B6&height=48&section=footer&text=%F0%9F%90%8D%20Contribution%20Snake&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%" />
 
 <br>
 
@@ -183,7 +179,7 @@
 
 <!-- ═══════════════ QUOTE ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=36&gradient=rainbow&color=0:6D28D9,50:EC4899,100:F472B6&section=footer&text=%F0%9F%92%AC%20Dev%20Quote%20of%20the%20Day&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=gradient&color=0:6D28D9,50:EC4899,100:F472B6&height=48&section=footer&text=%F0%9F%92%AC%20Dev%20Quote%20of%20the%20Day&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%" />
 
 <br>
 
@@ -197,7 +193,7 @@
 
 <!-- ═══════════════ CONNECT ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=36&gradient=rainbow&color=0:7C3AED,50:EC4899,100:F472B6&section=footer&text=%F0%9F%A4%9D%20Let%27s%20Connect&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=gradient&color=0:7C3AED,50:EC4899,100:F472B6&height=48&section=footer&text=%F0%9F%A4%9D%20Let%27s%20Connect&fontSize=24&fontColor=ffffff&animation=twinkling" width="100%" />
 
 <br>
 
