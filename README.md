@@ -113,60 +113,71 @@
 <br>
 
 <!-- ═══════════════════════════════════════════════ -->
-<!--            📊 DYNAMIC GITHUB STATS             -->
+<!--         📊 GITHUB ANALYTICS (AUTO-UPDATED)     -->
 <!-- ═══════════════════════════════════════════════ -->
-<!-- ✦ All stats auto-generate via GitHub Actions — always up-to-date -->
-<!-- ✦ Updates automatically every 6 hours and on every push          -->
+<!-- Stats, languages & snake: GitHub Actions → output branch (every 6h + on push) -->
+<!-- Streak & activity graph: live GitHub data                                       -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<h2 align="center">📊 Real-Time GitHub Analytics</h2>
+<h2 align="center">📊 GitHub Analytics</h2>
 
-<!-- Stats Card -->
 <p align="center">
-  <a href="https://github.com/Mayur-Purohit">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Mayur-Purohit&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=C084FC&icon_color=A855F7&text_color=c9d1d9&ring_color=7C3AED&rank_icon=github" width="49%" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/Mayur-Purohit">
-    <img src="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED" width="49%" alt="GitHub Streak" />
-  </a>
+  <samp>Auto-refreshed via <a href="https://github.com/Mayur-Purohit/Mayur-Purohit/actions/workflows/profile-assets.yml">GitHub Actions</a> · every 6 hours & on each push to main</samp>
 </p>
 
-<!-- Top Languages -->
+<br>
+
+<!-- Row 1: Stats + Streak -->
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Mayur-Purohit">
+        <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-stats.svg" alt="GitHub Stats" />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Mayur-Purohit">
+        <img src="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED" alt="GitHub Streak" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- Row 2: Top Languages -->
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Mayur-Purohit&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=C084FC&text_color=c9d1d9&icon_color=A855F7" width="42%" alt="Top Languages" />
+    <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/top-languages.svg" alt="Top Languages" />
   </a>
 </p>
 
 <br>
 
 <!-- ═══════════════════════════════════════════════ -->
-<!--              📈 CONTRIBUTION GRAPH             -->
+<!--           📈 CONTRIBUTIONS & SNAKE             -->
 <!-- ═══════════════════════════════════════════════ -->
-<!-- ✦ Live contribution activity graph — updates in real-time -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<h2 align="center">📈 Contribution Graph</h2>
+<h2 align="center">📈 Contribution Activity</h2>
 
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur%27s%20Contribution%20Activity" width="100%" alt="Activity Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur%27s%20Contribution%20Activity" width="100%" alt="Contribution Activity Graph" />
   </a>
 </p>
 
 <br>
-
-<!-- ═══════════════════════════════════════════════ -->
-<!--             🐍 CONTRIBUTION SNAKE              -->
-<!-- ═══════════════════════════════════════════════ -->
-<!-- ✦ Snake animation auto-generates from your GitHub contributions -->
-<!-- ✦ Updates automatically via GitHub Actions workflow             -->
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <h2 align="center">🐍 Contribution Snake</h2>
+
+<p align="center">
+  <samp>Generated from your real contribution grid · updates with Actions</samp>
+</p>
+
+<br>
 
 <p align="center">
   <picture>
