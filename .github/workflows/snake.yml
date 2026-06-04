@@ -10,7 +10,7 @@ on:
     branches:
       - main
 
-  # Manual trigger (optional, you never need this)
+  # Manual trigger
   workflow_dispatch:
 
 jobs:
@@ -21,6 +21,9 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
       - name: Generate Snake Animation
         uses: Platane/snk/svg-only@v3
         with:
@@ -34,6 +37,5 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

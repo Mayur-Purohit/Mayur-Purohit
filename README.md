@@ -188,28 +188,19 @@
 <!-- ═══════════════════════════════════════════════ -->
 <!--                 💬 DEV QUOTE                   -->
 <!-- ═══════════════════════════════════════════════ -->
-<!-- ✦ Quote automatically updates daily with GitHub Actions         -->
+<!-- ✦ Quote automatically updates daily                              -->
 <!-- ✦ Fully responsive - scales perfectly on mobile and desktop     -->
-<!-- ✦ Uses vertical layout optimized for mobile viewing             -->
+<!-- ✦ Centered with proper borders and styling                      -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <h2 align="center">💬 Dev Quote of the Day</h2>
 
-<!-- Mobile-Optimized Responsive Quote -->
-<picture>
-  <source media="(max-width: 768px)" srcset="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight&border=true&animation=grow_out_in&quoteCategory=programming" />
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true&animation=grow_out_in&quoteCategory=programming" alt="Dev Quote" style="max-width: 100%; height: auto;" />
-</picture>
-
-<!-- Alternative: Single responsive quote that adapts automatically -->
-<!--
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight&border=true&animation=grow_out_in&quoteCategory=programming" alt="Dev Quote" style="max-width: 100%; width: auto; height: auto;" />
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
   </a>
 </p>
--->
 
 <br>
 
