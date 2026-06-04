@@ -1,7 +1,6 @@
 name: Generate Profile Assets
 
 on:
-  # Auto-update 4× daily (real GitHub data — no manual Actions tab needed)
   schedule:
     - cron: "0 0,6,12,18 * * *"
   push:
@@ -16,7 +15,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     permissions:
       contents: write
 
@@ -24,21 +23,21 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v4
 
-      - name: Fetch previous assets (fallback if an API is slow)
+      - name: Fetch previous assets
         uses: actions/checkout@v4
         with:
           ref: output
           path: output-branch
         continue-on-error: true
 
-      - name: Prepare output folders
+      - name: Prepare workspace
         run: |
-          mkdir -p dist/stats
+          mkdir -p dist/stats dist/badges
           if [ -d output-branch ]; then
             cp -rn output-branch/. dist/ 2>/dev/null || true
           fi
+          mkdir -p dist/stats dist/badges
 
-      # ═══════════════ REAL GITHUB STATS (API → SVG) ═══════════════
       - name: Generate GitHub Stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -55,44 +54,30 @@ jobs:
           path: dist/stats/top-languages.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ═══════════════ REAL STREAK (from your contribution history) ═══════════════
-      - name: Generate Contribution Streak card
+      - name: Generate Streak and Activity graph
         run: |
           fetch_svg() {
-            local url="$1" out="$2"
-            for i in 1 2 3 4 5; do
-              if curl -fsSL --retry 3 --retry-delay 5 --max-time 120 \
+            url="$1"
+            out="$2"
+            for attempt in 1 2 3 4 5; do
+              if curl -fsSL --retry 3 --retry-delay 8 --max-time 120 \
                 -A "Mayur-Purohit-profile-assets" -o "$out" "$url" && grep -qi "<svg" "$out"; then
-                echo "Fetched: $out"
+                echo "OK: $out (attempt $attempt)"
                 return 0
               fi
-              sleep 10
+              echo "Retry $attempt for $out"
+              sleep 12
             done
             return 1
           }
-          fetch_svg "https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED" \
-            dist/stats/github-streak.svg || test -f dist/stats/github-streak.svg
 
-      # ═══════════════ REAL ACTIVITY GRAPH ═══════════════
-      - name: Generate Contribution Activity graph
-        run: |
-          fetch_svg() {
-            local url="$1" out="$2"
-            for i in 1 2 3 4 5; do
-              if curl -fsSL --retry 3 --retry-delay 5 --max-time 120 \
-                -A "Mayur-Purohit-profile-assets" -o "$out" "$url" && grep -qi "<svg" "$out"; then
-                echo "Fetched: $out"
-                return 0
-              fi
-              sleep 10
-            done
-            return 1
-          }
-          fetch_svg "https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur%27s%20Contribution%20Activity" \
-            dist/contribution-graph.svg || test -f dist/contribution-graph.svg
+          STREAK_URL="https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED"
+          GRAPH_URL="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur%27s%20Contribution%20Activity"
 
-      # ═══════════════ REAL CONTRIBUTION SNAKE ═══════════════
-      - name: Generate Snake from contribution grid
+          fetch_svg "$STREAK_URL" dist/stats/github-streak.svg || test -f dist/stats/github-streak.svg
+          fetch_svg "$GRAPH_URL" dist/contribution-graph.svg || test -f dist/contribution-graph.svg
+
+      - name: Generate Contribution Snake
         uses: Platane/snk/svg-only@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -102,25 +87,39 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Write last-updated timestamp
-        run: echo "$(date -u +"%Y-%m-%d %H:%M UTC")" > dist/last-updated.txt
-
-      - name: Verify all generated SVGs
+      - name: Write timestamps and status badges
         run: |
-          required="dist/stats/github-stats.svg dist/stats/top-languages.svg dist/stats/github-streak.svg dist/contribution-graph.svg dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg"
-          for f in $required; do
-            if [ ! -f "$f" ] || ! grep -qi "<svg" "$f"; then
-              echo "Invalid or missing SVG: $f"
+          UPDATED=$(date -u +"%Y-%m-%d %H:%M UTC")
+          echo "$UPDATED" > dist/last-updated.txt
+          BADGE_TIME=$(echo "$UPDATED" | sed 's/ /%20/g;s/:/%3A/g')
+          curl -fsSL -o dist/badges/last-updated.svg \
+            "https://img.shields.io/badge/Last_Updated-${BADGE_TIME}-7C3AED?style=for-the-badge&labelColor=0d1117"
+          curl -fsSL -o dist/badges/auto-sync.svg \
+            "https://img.shields.io/badge/Profile_Data-Auto_Synced-C084FC?style=for-the-badge&labelColor=0d1117&logo=github"
+
+      - name: Verify required SVGs
+        run: |
+          for f in dist/stats/github-stats.svg dist/stats/top-languages.svg \
+            dist/stats/github-streak.svg dist/contribution-graph.svg \
+            dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg \
+            dist/badges/last-updated.svg dist/badges/auto-sync.svg; do
+            if [ ! -f "$f" ]; then
+              echo "Missing: $f"
               exit 1
             fi
-            echo "OK: $f"
+            if [[ "$f" == *.svg ]] && ! grep -qi "<svg" "$f"; then
+              echo "Invalid SVG: $f"
+              exit 1
+            fi
+            echo "Verified: $f"
           done
 
-      - name: Push all assets to output branch
+      - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "chore: refresh profile stats and snake [skip ci]"
+          keep_history: true
+          commit_message: "chore: refresh profile analytics [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

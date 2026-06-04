@@ -123,11 +123,13 @@
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
-  <a href="https://github.com/Mayur-Purohit/Mayur-Purohit/actions/workflows/profile-assets.yml">
-    <img src="https://github.com/Mayur-Purohit/Mayur-Purohit/actions/workflows/profile-assets.yml/badge.svg" alt="Auto-update status" />
-  </a>
+  <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/badges/auto-sync.svg" alt="Profile data auto-synced" />
   &nbsp;
-  <img src="https://img.shields.io/github/last-commit/Mayur-Purohit/Mayur-Purohit/output?label=data%20refreshed&color=7C3AED&style=for-the-badge" alt="Last data refresh" />
+  <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/badges/last-updated.svg" alt="Last updated from your GitHub account" />
+</p>
+
+<p align="center">
+  <samp>Live stats from <b>@Mayur-Purohit</b> · refreshed automatically 4× daily via GitHub Actions</samp>
 </p>
 
 <br>
@@ -137,12 +139,12 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Mayur-Purohit">
-        <img src="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/stats/github-stats.svg" alt="GitHub Stats" />
+        <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-stats.svg" alt="GitHub Stats" />
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Mayur-Purohit">
-        <img src="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/stats/github-streak.svg" alt="GitHub Streak" />
+        <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-streak.svg" alt="GitHub Streak" />
       </a>
     </td>
   </tr>
@@ -153,7 +155,7 @@
 <!-- Row 2: Top Languages (from your repositories) -->
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/stats/top-languages.svg" alt="Top Languages" />
+    <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/top-languages.svg" alt="Top Languages" />
   </a>
 </p>
 
@@ -169,7 +171,7 @@
 
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/contribution-graph.svg" width="100%" alt="Contribution Activity Graph" />
+    <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/contribution-graph.svg" width="100%" alt="Contribution Activity Graph" />
   </a>
 </p>
 
@@ -185,9 +187,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/github-contribution-grid-snake.svg" />
-    <img alt="Snake eating contributions" src="https://cdn.jsdelivr.net/gh/Mayur-Purohit/Mayur-Purohit@output/github-contribution-grid-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </p>
 
