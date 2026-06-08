@@ -117,11 +117,12 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<h2 align="center">📊 Real-Time GitHub Analytics</h2>
+<h2 align="center">📊 GitHub Activity &amp; Stats</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/📊_Analytics-Live%20from%20@Mayur--Purohit-7C3AED?style=for-the-badge&labelColor=1a1b27&logo=github&logoColor=C084FC" alt="Live analytics" />
-  <img src="https://img.shields.io/badge/🔄_Auto--Update-4×%20Daily-A855F7?style=for-the-badge&labelColor=1a1b27" alt="Auto update" />
+  <img src="https://img.shields.io/badge/🎯_Current_Focus-Full--Stack_Development-7C3AED?style=for-the-badge&labelColor=1a1b27" alt="Current Focus" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/🎓_Learning-Cloud_Computing_%26_DevOps-A855F7?style=for-the-badge&labelColor=1a1b27" alt="Learning" />
 </p>
 
 <br>
