@@ -60,14 +60,18 @@ jobs:
           # Badge URL
           BADGE_IMG="<img src=\"https://img.shields.io/badge/🎓_B.Tech_CS_—_${ORDINAL}_Year-7C3AED?style=for-the-badge&labelColor=0d1117\" alt=\"Education\" />"
 
+          # Escape ampersands for sed
+          TYPING_IMG_ESCAPED="${TYPING_IMG//&/\\&}"
+          BADGE_IMG_ESCAPED="${BADGE_IMG//&/\\&}"
+
           # Update typing animation line
-          sed -i "s|<!--TYPING_YEAR_START-->.*<!--TYPING_YEAR_END-->|<!--TYPING_YEAR_START-->${TYPING_IMG}<!--TYPING_YEAR_END-->|g" README.md
+          sed -i "s|<!--TYPING_YEAR_START-->.*<!--TYPING_YEAR_END-->|<!--TYPING_YEAR_START-->${TYPING_IMG_ESCAPED}<!--TYPING_YEAR_END-->|g" README.md
 
           # Update about me text
           sed -i "s|<!--ABOUT_YEAR_START-->.*<!--ABOUT_YEAR_END-->|<!--ABOUT_YEAR_START-->${ORDINAL} Year<!--ABOUT_YEAR_END-->|g" README.md
 
           # Update badge
-          sed -i "s|<!--BADGE_YEAR_START-->.*<!--BADGE_YEAR_END-->|<!--BADGE_YEAR_START-->${BADGE_IMG}<!--BADGE_YEAR_END-->|g" README.md
+          sed -i "s|<!--BADGE_YEAR_START-->.*<!--BADGE_YEAR_END-->|<!--BADGE_YEAR_START-->${BADGE_IMG_ESCAPED}<!--BADGE_YEAR_END-->|g" README.md
 
           echo "README updated with ${ORDINAL} Year"
 
