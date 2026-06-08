@@ -47,8 +47,7 @@
   <samp>
     Hi, I'm <b>Mayur Purohit</b>, a <!--ABOUT_YEAR_START-->2nd Year<!--ABOUT_YEAR_END--> Computer Science student &amp; developer.<br><br>
     I build full-stack applications with React, Node.js, and Python, focusing on writing<br>
-    clean, scalable code and delivering seamless user experiences.<br><br>
-    Currently focused on backend architecture, database optimization, and system design.
+    clean, scalable code and delivering seamless user experiences.
   </samp>
 </p>
 
@@ -121,8 +120,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/🎯_Current_Focus-Full--Stack_Development-7C3AED?style=for-the-badge&labelColor=1a1b27" alt="Current Focus" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/🎓_Learning-System_Design_%26_APIs-A855F7?style=for-the-badge&labelColor=1a1b27" alt="Learning" />
 </p>
 
 <br>
