@@ -74,7 +74,7 @@
 
 <h4 align="center">⚡ Languages</h4>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java&theme=dark" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,java&theme=dark" alt="Languages" />
 </p>
 
 <h4 align="center">🚀 Frameworks & Libraries</h4>
