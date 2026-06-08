@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <!--TYPING_YEAR_START--><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1200&color=C084FC&center=true&vCenter=true&repeat=true&width=650&height=45&lines=%F0%9F%8E%93+2nd+Year+B.Tech+CS+%E2%80%A2+Full+Stack+Developer;%F0%9F%9A%80+React+%7C+Node.js+%7C+Python+%7C+Java;%F0%9F%92%A1+Passionate+about+building+impactful+software;%F0%9F%A4%9D+Open+to+Internships+%26+Opportunities" alt="Typing Animation" /><!--TYPING_YEAR_END-->
+    <!--TYPING_YEAR_START--><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1200&color=C084FC&center=true&vCenter=true&repeat=true&width=650&height=45&lines=%F0%9F%8E%93+2nd+Year+B.Tech+CS+%E2%80%A2+Full+Stack+Developer;%F0%9F%9A%80+React+%7C+Node.js+%7C+Python+%7C+TypeScript;%F0%9F%92%A1+Passionate+about+building+impactful+software;%F0%9F%A4%9D+Open+to+Internships+%26+Opportunities" alt="Typing Animation" /><!--TYPING_YEAR_END-->
   </a>
 </p>
 
