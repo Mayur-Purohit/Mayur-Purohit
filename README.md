@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1200&color=C084FC&center=true&vCenter=true&repeat=true&width=650&height=45&lines=%F0%9F%8E%93+B.Tech+CS+Student+%E2%80%A2+Full+Stack+Developer;%F0%9F%9A%80+React+%7C+Node.js+%7C+Python+%7C+TypeScript;%F0%9F%92%A1+Passionate+about+building+impactful+software;%F0%9F%A4%9D+Open+to+Internships+%26+Opportunities" alt="Typing Animation" />
+    <!--TYPING_YEAR_START--><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1200&color=C084FC&center=true&vCenter=true&repeat=true&width=650&height=45&lines=%F0%9F%8E%93+2nd+Year+B.Tech+CS+%E2%80%A2+Full+Stack+Developer;%F0%9F%9A%80+React+%7C+Node.js+%7C+Python+%7C+TypeScript;%F0%9F%92%A1+Passionate+about+building+impactful+software;%F0%9F%A4%9D+Open+to+Internships+%26+Opportunities" alt="Typing Animation" /><!--TYPING_YEAR_END-->
   </a>
 </p>
 
@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="https://github.com/Mayur-Purohit?tab=followers">
-    <img src="https://img.shields.io/github/followers/Mayur-Purohit?label=Followers&style=for-the-badge&color=7C3AED&labelColor=1a1b27&logo=github&logoColor=C084FC" alt="Followers" />
+    <img src="https://img.shields.io/github/followers/Mayur-Purohit?label=Followers&style=for-the-badge&color=7C3AED&labelColor=1a1b27&logo=github&logoColor=C084FC&cacheSeconds=14400" alt="Followers" />
   </a>
   &nbsp;
   <a href="https://github.com/Mayur-Purohit?tab=repositories">
@@ -45,7 +45,7 @@
 
 <p align="center">
   <samp>
-    Hello! I'm <b>Mayur Purohit</b>, a 2nd Year B.Tech Computer Science student.<br><br>
+    Hello! I'm <b>Mayur Purohit</b>, a <!--ABOUT_YEAR_START-->2nd Year<!--ABOUT_YEAR_END--> B.Tech Computer Science student.<br><br>
     I specialize in <b>Full-Stack Development</b>, taking ideas from concept to production.<br>
     My passion lies in writing clean code, designing scalable architectures, and crafting<br>
     seamless user experiences with modern technologies like React, Node.js, and Python.<br><br>
@@ -57,7 +57,7 @@
 <br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🎓_B.Tech_CS_—_2nd_Year-7C3AED?style=for-the-badge&labelColor=0d1117" alt="Education" />
+  <!--BADGE_YEAR_START--><img src="https://img.shields.io/badge/🎓_B.Tech_CS_—_2nd_Year-7C3AED?style=for-the-badge&labelColor=0d1117" alt="Education" /><!--BADGE_YEAR_END-->
   &nbsp;
   <img src="https://img.shields.io/badge/💼_Aspiring_Software_Engineer-A855F7?style=for-the-badge&labelColor=0d1117" alt="Role" />
   &nbsp;
