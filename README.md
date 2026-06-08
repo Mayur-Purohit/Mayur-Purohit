@@ -84,7 +84,7 @@
 
 <h4 align="center">🗄️ Databases & Cloud</h4>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,vercel&theme=dark" alt="Databases" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,vercel&theme=dark" alt="Databases" />
 </p>
 
 <h4 align="center">🔧 Tools & Platforms</h4>
