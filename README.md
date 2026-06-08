@@ -79,17 +79,17 @@
 
 <h4 align="center">🚀 Frameworks & Libraries</h4>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,bootstrap&theme=dark" alt="Frameworks" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,tailwind,bootstrap&theme=dark" alt="Frameworks" />
 </p>
 
 <h4 align="center">🗄️ Databases & Cloud</h4>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mongodb,firebase,mysql,vercel,netlify&theme=dark" alt="Databases" />
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,vercel&theme=dark" alt="Databases" />
 </p>
 
 <h4 align="center">🔧 Tools & Platforms</h4>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,vite,npm,docker,linux,bash&theme=dark" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,vite&theme=dark" alt="Tools" />
 </p>
 
 <br>
