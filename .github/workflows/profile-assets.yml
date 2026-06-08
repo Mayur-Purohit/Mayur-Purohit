@@ -55,7 +55,7 @@ jobs:
 
           # URL-encoded year for typing animation
           TYPING_LINE="%F0%9F%8E%93+${ORDINAL}+Year+B.Tech+CS+%E2%80%A2+Full+Stack+Developer"
-          TYPING_IMG="<img src=\"https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1200&color=C084FC&center=true&vCenter=true&repeat=true&width=650&height=45&lines=${TYPING_LINE};%F0%9F%9A%80+React+%7C+Node.js+%7C+Python+%7C+TypeScript;%F0%9F%92%A1+Passionate+about+building+impactful+software;%F0%9F%A4%9D+Open+to+Internships+%26+Opportunities\" alt=\"Typing Animation\" />"
+          TYPING_IMG="<img src=\"https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1200&color=C084FC&center=true&vCenter=true&repeat=true&width=650&height=45&lines=${TYPING_LINE};%F0%9F%9A%80+React+%7C+Node.js+%7C+Python+%7C+Java;%F0%9F%92%A1+Passionate+about+building+impactful+software;%F0%9F%A4%9D+Open+to+Internships+%26+Opportunities\" alt=\"Typing Animation\" />"
 
           # Badge URL
           BADGE_IMG="<img src=\"https://img.shields.io/badge/🎓_B.Tech_CS_—_${ORDINAL}_Year-7C3AED?style=for-the-badge&labelColor=0d1117\" alt=\"Education\" />"
