@@ -45,12 +45,10 @@
 
 <p align="center">
   <samp>
-    Hello! I'm <b>Mayur Purohit</b>, a <!--ABOUT_YEAR_START-->2nd Year<!--ABOUT_YEAR_END--> B.Tech Computer Science student.<br><br>
-    I specialize in <b>Full-Stack Development</b>, taking ideas from concept to production.<br>
-    My passion lies in writing clean code, designing scalable architectures, and crafting<br>
-    seamless user experiences with modern technologies like React, Node.js, and Python.<br><br>
-    I'm always learning and evolving. Currently exploring <b>Cloud Architecture</b> &amp; <b>DevOps</b>.<br><br>
-    <i>"Building digital solutions that make a real-world impact."</i>
+    Hi, I'm <b>Mayur Purohit</b>, a <!--ABOUT_YEAR_START-->2nd Year<!--ABOUT_YEAR_END--> Computer Science student &amp; developer.<br><br>
+    I build full-stack applications with React, Node.js, and Python, focusing on writing<br>
+    clean, scalable code and delivering seamless user experiences.<br><br>
+    Currently expanding my skills into Cloud Architecture &amp; DevOps to build more resilient systems.
   </samp>
 </p>
 
