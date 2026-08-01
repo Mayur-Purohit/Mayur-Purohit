@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <!--TYPING_YEAR_START--><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1200&color=C084FC&center=true&vCenter=true&repeat=true&width=650&height=45&lines=%F0%9F%8E%93+2nd+Year+B.Tech+CS+%E2%80%A2+Full+Stack+Developer;%F0%9F%9A%80+React+%7C+Node.js+%7C+Python+%7C+Java;%F0%9F%92%A1+Passionate+about+building+impactful+software;%F0%9F%A4%9D+Open+to+Internships+%26+Opportunities" alt="Typing Animation" /><!--TYPING_YEAR_END-->
+    <!--TYPING_YEAR_START--><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1200&color=C084FC&center=true&vCenter=true&repeat=true&width=650&height=45&lines=%F0%9F%8E%93+3rd+Year+B.Tech+CS+%E2%80%A2+Full+Stack+Developer;%F0%9F%9A%80+React+%7C+Node.js+%7C+Python+%7C+Java;%F0%9F%92%A1+Passionate+about+building+impactful+software;%F0%9F%A4%9D+Open+to+Internships+%26+Opportunities" alt="Typing Animation" /><!--TYPING_YEAR_END-->
   </a>
 </p>
 
@@ -45,7 +45,7 @@
 
 <p align="center">
   <samp>
-    Hi, I'm <b>Mayur Purohit</b>, a <!--ABOUT_YEAR_START-->2nd Year<!--ABOUT_YEAR_END--> Computer Science student &amp; developer.<br><br>
+    Hi, I'm <b>Mayur Purohit</b>, a <!--ABOUT_YEAR_START-->3rd Year<!--ABOUT_YEAR_END--> Computer Science student &amp; developer.<br><br>
     I build full-stack applications with React, Node.js, and Python, focusing on writing<br>
     clean, scalable code and delivering seamless user experiences.
   </samp>
@@ -54,7 +54,7 @@
 <br>
 
 <p align="center">
-  <!--BADGE_YEAR_START--><img src="https://img.shields.io/badge/🎓_B.Tech_CS_—_2nd_Year-7C3AED?style=for-the-badge&labelColor=0d1117" alt="Education" /><!--BADGE_YEAR_END-->
+  <!--BADGE_YEAR_START--><img src="https://img.shields.io/badge/🎓_B.Tech_CS_—_3rd_Year-7C3AED?style=for-the-badge&labelColor=0d1117" alt="Education" /><!--BADGE_YEAR_END-->
   &nbsp;
   <img src="https://img.shields.io/badge/💼_Aspiring_Software_Engineer-A855F7?style=for-the-badge&labelColor=0d1117" alt="Role" />
   &nbsp;
