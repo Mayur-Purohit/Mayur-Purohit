@@ -105,9 +105,35 @@ jobs:
 
       - name: Generate Streak card
         run: |
-          curl -fsSL --retry 5 -o dist/stats/github-streak.svg \
-            "https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED"
-          grep -qi "<svg" dist/stats/github-streak.svg
+          MAX_ATTEMPTS=3
+          ATTEMPT=0
+          SUCCESS=false
+
+          while [ "$ATTEMPT" -lt "$MAX_ATTEMPTS" ] && [ "$SUCCESS" = "false" ]; do
+            ATTEMPT=$((ATTEMPT + 1))
+            echo "Attempt $ATTEMPT of $MAX_ATTEMPTS..."
+
+            curl -fsSL --retry 5 --retry-delay 10 --retry-all-errors -o dist/stats/github-streak.svg \
+              "https://streak-stats.demolab.com?user=Mayur-Purohit&hide_border=true&background=0D1117&ring=7C3AED&fire=C084FC&currStreakLabel=A855F7&sideLabels=C084FC&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=7C3AED"
+
+            # Validate: must contain <svg AND actual streak data (not an error SVG)
+            if grep -qi "<svg" dist/stats/github-streak.svg && \
+               grep -qi "Total Contributions" dist/stats/github-streak.svg && \
+               ! grep -qi "Failed to" dist/stats/github-streak.svg && \
+               ! grep -qi "Error" dist/stats/github-streak.svg; then
+              echo "Streak SVG validated successfully."
+              SUCCESS=true
+            else
+              echo "Streak SVG contains error or missing data. Retrying in 30s..."
+              sleep 30
+            fi
+          done
+
+          if [ "$SUCCESS" = "false" ]; then
+            echo "ERROR: Failed to generate valid streak card after $MAX_ATTEMPTS attempts."
+            echo "Keeping previous version if available."
+            exit 1
+          fi
 
       - name: Generate Contribution Snake
         uses: Platane/snk/svg-only@v3
@@ -128,7 +154,12 @@ jobs:
               echo "Invalid or missing: $f"
               exit 1
             fi
-            echo "OK: $f"
+            # Reject SVGs that contain error messages
+            if grep -qi "Failed to" "$f" || grep -qi "Error lable" "$f"; then
+              echo "ERROR SVG detected: $f"
+              exit 1
+            fi
+            echo "OK: $f ($(wc -c < "$f") bytes)"
           done
 
       - name: Publish to output branch
