@@ -135,6 +135,38 @@ jobs:
             exit 1
           fi
 
+      - name: Generate Activity Graph
+        run: |
+          MAX_ATTEMPTS=3
+          ATTEMPT=0
+          SUCCESS=false
+
+          while [ "$ATTEMPT" -lt "$MAX_ATTEMPTS" ] && [ "$SUCCESS" = "false" ]; do
+            ATTEMPT=$((ATTEMPT + 1))
+            echo "Attempt $ATTEMPT of $MAX_ATTEMPTS..."
+
+            curl -fsSL --retry 5 --retry-delay 10 --retry-all-errors -o dist/stats/github-activity-graph.svg \
+              "https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur%27s%20Contribution%20Activity"
+
+            # Validate: must contain <svg and not the error message
+            if grep -qi "<svg" dist/stats/github-activity-graph.svg && \
+               ! grep -qi "Can't fetch any contribution" dist/stats/github-activity-graph.svg && \
+               ! grep -qi "Failed to" dist/stats/github-activity-graph.svg && \
+               ! grep -qi "Error" dist/stats/github-activity-graph.svg; then
+              echo "Activity Graph SVG validated successfully."
+              SUCCESS=true
+            else
+              echo "Activity Graph SVG contains error or missing data. Retrying in 30s..."
+              sleep 30
+            fi
+          done
+
+          if [ "$SUCCESS" = "false" ]; then
+            echo "ERROR: Failed to generate valid activity graph after $MAX_ATTEMPTS attempts."
+            echo "Keeping previous version if available."
+            exit 1
+          fi
+
       - name: Generate Contribution Snake
         uses: Platane/snk/svg-only@v3
         env:
@@ -148,7 +180,7 @@ jobs:
       - name: Verify generated SVGs
         run: |
           for f in dist/stats/github-stats.svg dist/stats/top-languages.svg \
-            dist/stats/github-streak.svg \
+            dist/stats/github-streak.svg dist/stats/github-activity-graph.svg \
             dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg; do
             if [ ! -f "$f" ] || ! grep -qi "<svg" "$f"; then
               echo "Invalid or missing: $f"
