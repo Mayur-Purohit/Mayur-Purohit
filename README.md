@@ -160,7 +160,7 @@
 
 <p align="center">
   <a href="https://github.com/Mayur-Purohit">
-    <img src="https://raw.githubusercontent.com/Mayur-Purohit/Mayur-Purohit/output/stats/github-activity-graph.svg" width="100%" alt="Activity Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mayur-Purohit&bg_color=0d1117&color=C084FC&line=7C3AED&point=EDE9FE&area_color=A855F7&area=true&hide_border=true&custom_title=Mayur%27s%20Contribution%20Activity" width="100%" alt="Activity Graph" />
   </a>
 </p>
 
