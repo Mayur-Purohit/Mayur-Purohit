@@ -145,10 +145,17 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Generate Activity Graph card
+        run: node .github/scripts/generate-activity-graph.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: Mayur-Purohit
+          OUTPUT_PATH: dist/stats/activity-graph.svg
+
       - name: Verify generated SVGs
         run: |
           for f in dist/stats/github-stats.svg dist/stats/top-languages.svg \
-            dist/stats/github-streak.svg \
+            dist/stats/github-streak.svg dist/stats/activity-graph.svg \
             dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg; do
             if [ ! -f "$f" ] || ! grep -qi "<svg" "$f"; then
               echo "Invalid or missing: $f"
