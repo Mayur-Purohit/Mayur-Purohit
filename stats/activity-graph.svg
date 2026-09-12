@@ -172,132 +172,132 @@
 
   <!-- Chart Area and Line -->
   <g class="ct-chart">
-    <path class="ct-area" d="M 70.00 341.50 C 76.00 346.25, 94.00 374.75, 106.00 370.00 C 118.00 365.25, 130.00 313.00, 142.00 313.00 C 154.00 313.00, 166.00 360.50, 178.00 370.00 C 190.00 379.50, 202.00 370.00, 214.00 370.00 C 226.00 370.00, 238.00 384.25, 250.00 370.00 C 262.00 355.75, 274.00 284.50, 286.00 284.50 C 298.00 284.50, 310.00 355.75, 322.00 370.00 C 334.00 384.25, 346.00 398.50, 358.00 370.00 C 370.00 341.50, 382.00 199.00, 394.00 199.00 C 406.00 199.00, 418.00 341.50, 430.00 370.00 C 442.00 398.50, 454.00 370.00, 466.00 370.00 C 478.00 370.00, 490.00 370.00, 502.00 370.00 C 514.00 370.00, 526.00 370.00, 538.00 370.00 C 550.00 370.00, 562.00 370.00, 574.00 370.00 C 586.00 370.00, 598.00 370.00, 610.00 370.00 C 622.00 370.00, 634.00 370.00, 646.00 370.00 C 658.00 370.00, 670.00 370.00, 682.00 370.00 C 694.00 370.00, 706.00 370.00, 718.00 370.00 C 730.00 370.00, 742.00 370.00, 754.00 370.00 C 766.00 370.00, 778.00 370.00, 790.00 370.00 C 802.00 370.00, 814.00 370.00, 826.00 370.00 C 838.00 370.00, 850.00 370.00, 862.00 370.00 C 874.00 370.00, 886.00 370.00, 898.00 370.00 C 910.00 370.00, 922.00 389.00, 934.00 370.00 C 946.00 351.00, 958.00 256.00, 970.00 256.00 C 982.00 256.00, 994.00 351.00, 1006.00 370.00 C 1018.00 389.00, 1030.00 370.00, 1042.00 370.00 C 1054.00 370.00, 1066.00 370.00, 1078.00 370.00 C 1090.00 370.00, 1102.00 370.00, 1114.00 370.00 C 1126.00 370.00, 1144.00 370.00, 1150.00 370.00 L 1150.00 370.00 L 70.00 370.00 Z"/>
-    <path class="ct-line" d="M 70.00 341.50 C 76.00 346.25, 94.00 374.75, 106.00 370.00 C 118.00 365.25, 130.00 313.00, 142.00 313.00 C 154.00 313.00, 166.00 360.50, 178.00 370.00 C 190.00 379.50, 202.00 370.00, 214.00 370.00 C 226.00 370.00, 238.00 384.25, 250.00 370.00 C 262.00 355.75, 274.00 284.50, 286.00 284.50 C 298.00 284.50, 310.00 355.75, 322.00 370.00 C 334.00 384.25, 346.00 398.50, 358.00 370.00 C 370.00 341.50, 382.00 199.00, 394.00 199.00 C 406.00 199.00, 418.00 341.50, 430.00 370.00 C 442.00 398.50, 454.00 370.00, 466.00 370.00 C 478.00 370.00, 490.00 370.00, 502.00 370.00 C 514.00 370.00, 526.00 370.00, 538.00 370.00 C 550.00 370.00, 562.00 370.00, 574.00 370.00 C 586.00 370.00, 598.00 370.00, 610.00 370.00 C 622.00 370.00, 634.00 370.00, 646.00 370.00 C 658.00 370.00, 670.00 370.00, 682.00 370.00 C 694.00 370.00, 706.00 370.00, 718.00 370.00 C 730.00 370.00, 742.00 370.00, 754.00 370.00 C 766.00 370.00, 778.00 370.00, 790.00 370.00 C 802.00 370.00, 814.00 370.00, 826.00 370.00 C 838.00 370.00, 850.00 370.00, 862.00 370.00 C 874.00 370.00, 886.00 370.00, 898.00 370.00 C 910.00 370.00, 922.00 389.00, 934.00 370.00 C 946.00 351.00, 958.00 256.00, 970.00 256.00 C 982.00 256.00, 994.00 351.00, 1006.00 370.00 C 1018.00 389.00, 1030.00 370.00, 1042.00 370.00 C 1054.00 370.00, 1066.00 370.00, 1078.00 370.00 C 1090.00 370.00, 1102.00 370.00, 1114.00 370.00 C 1126.00 370.00, 1144.00 370.00, 1150.00 370.00"/>
+    <path class="ct-area" d="M 70.00 370.00 C 76.00 360.50, 94.00 313.00, 106.00 313.00 C 118.00 313.00, 130.00 360.50, 142.00 370.00 C 154.00 379.50, 166.00 370.00, 178.00 370.00 C 190.00 370.00, 202.00 384.25, 214.00 370.00 C 226.00 355.75, 238.00 284.50, 250.00 284.50 C 262.00 284.50, 274.00 355.75, 286.00 370.00 C 298.00 384.25, 310.00 398.50, 322.00 370.00 C 334.00 341.50, 346.00 199.00, 358.00 199.00 C 370.00 199.00, 382.00 341.50, 394.00 370.00 C 406.00 398.50, 418.00 370.00, 430.00 370.00 C 442.00 370.00, 454.00 370.00, 466.00 370.00 C 478.00 370.00, 490.00 370.00, 502.00 370.00 C 514.00 370.00, 526.00 370.00, 538.00 370.00 C 550.00 370.00, 562.00 370.00, 574.00 370.00 C 586.00 370.00, 598.00 370.00, 610.00 370.00 C 622.00 370.00, 634.00 370.00, 646.00 370.00 C 658.00 370.00, 670.00 370.00, 682.00 370.00 C 694.00 370.00, 706.00 370.00, 718.00 370.00 C 730.00 370.00, 742.00 370.00, 754.00 370.00 C 766.00 370.00, 778.00 370.00, 790.00 370.00 C 802.00 370.00, 814.00 370.00, 826.00 370.00 C 838.00 370.00, 850.00 370.00, 862.00 370.00 C 874.00 370.00, 886.00 389.00, 898.00 370.00 C 910.00 351.00, 922.00 256.00, 934.00 256.00 C 946.00 256.00, 958.00 351.00, 970.00 370.00 C 982.00 389.00, 994.00 370.00, 1006.00 370.00 C 1018.00 370.00, 1030.00 370.00, 1042.00 370.00 C 1054.00 370.00, 1066.00 370.00, 1078.00 370.00 C 1090.00 370.00, 1102.00 370.00, 1114.00 370.00 C 1126.00 370.00, 1144.00 370.00, 1150.00 370.00 L 1150.00 370.00 L 70.00 370.00 Z"/>
+    <path class="ct-line" d="M 70.00 370.00 C 76.00 360.50, 94.00 313.00, 106.00 313.00 C 118.00 313.00, 130.00 360.50, 142.00 370.00 C 154.00 379.50, 166.00 370.00, 178.00 370.00 C 190.00 370.00, 202.00 384.25, 214.00 370.00 C 226.00 355.75, 238.00 284.50, 250.00 284.50 C 262.00 284.50, 274.00 355.75, 286.00 370.00 C 298.00 384.25, 310.00 398.50, 322.00 370.00 C 334.00 341.50, 346.00 199.00, 358.00 199.00 C 370.00 199.00, 382.00 341.50, 394.00 370.00 C 406.00 398.50, 418.00 370.00, 430.00 370.00 C 442.00 370.00, 454.00 370.00, 466.00 370.00 C 478.00 370.00, 490.00 370.00, 502.00 370.00 C 514.00 370.00, 526.00 370.00, 538.00 370.00 C 550.00 370.00, 562.00 370.00, 574.00 370.00 C 586.00 370.00, 598.00 370.00, 610.00 370.00 C 622.00 370.00, 634.00 370.00, 646.00 370.00 C 658.00 370.00, 670.00 370.00, 682.00 370.00 C 694.00 370.00, 706.00 370.00, 718.00 370.00 C 730.00 370.00, 742.00 370.00, 754.00 370.00 C 766.00 370.00, 778.00 370.00, 790.00 370.00 C 802.00 370.00, 814.00 370.00, 826.00 370.00 C 838.00 370.00, 850.00 370.00, 862.00 370.00 C 874.00 370.00, 886.00 389.00, 898.00 370.00 C 910.00 351.00, 922.00 256.00, 934.00 256.00 C 946.00 256.00, 958.00 351.00, 970.00 370.00 C 982.00 389.00, 994.00 370.00, 1006.00 370.00 C 1018.00 370.00, 1030.00 370.00, 1042.00 370.00 C 1054.00 370.00, 1066.00 370.00, 1078.00 370.00 C 1090.00 370.00, 1102.00 370.00, 1114.00 370.00 C 1126.00 370.00, 1144.00 370.00, 1150.00 370.00"/>
     <g class="ct-points">
       
-      <circle class="ct-point" cx="70.00" cy="341.50" r="4">
-        <title>2026-08-13: 1 contribution</title>
-      </circle>
-    
-      <circle class="ct-point" cx="106.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="70.00" cy="370.00" r="4">
         <title>2026-08-14: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="142.00" cy="313.00" r="4">
+      <circle class="ct-point" cx="106.00" cy="313.00" r="4">
         <title>2026-08-15: 2 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="178.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="142.00" cy="370.00" r="4">
         <title>2026-08-16: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="214.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="178.00" cy="370.00" r="4">
         <title>2026-08-17: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="250.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="214.00" cy="370.00" r="4">
         <title>2026-08-18: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="286.00" cy="284.50" r="4">
+      <circle class="ct-point" cx="250.00" cy="284.50" r="4">
         <title>2026-08-19: 3 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="322.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="286.00" cy="370.00" r="4">
         <title>2026-08-20: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="358.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="322.00" cy="370.00" r="4">
         <title>2026-08-21: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="394.00" cy="199.00" r="4">
+      <circle class="ct-point" cx="358.00" cy="199.00" r="4">
         <title>2026-08-22: 6 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="430.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="394.00" cy="370.00" r="4">
         <title>2026-08-23: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="466.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="430.00" cy="370.00" r="4">
         <title>2026-08-24: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="502.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="466.00" cy="370.00" r="4">
         <title>2026-08-25: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="538.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="502.00" cy="370.00" r="4">
         <title>2026-08-26: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="574.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="538.00" cy="370.00" r="4">
         <title>2026-08-27: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="610.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="574.00" cy="370.00" r="4">
         <title>2026-08-28: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="646.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="610.00" cy="370.00" r="4">
         <title>2026-08-29: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="682.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="646.00" cy="370.00" r="4">
         <title>2026-08-30: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="718.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="682.00" cy="370.00" r="4">
         <title>2026-08-31: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="754.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="718.00" cy="370.00" r="4">
         <title>2026-09-01: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="790.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="754.00" cy="370.00" r="4">
         <title>2026-09-02: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="826.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="790.00" cy="370.00" r="4">
         <title>2026-09-03: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="862.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="826.00" cy="370.00" r="4">
         <title>2026-09-04: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="898.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="862.00" cy="370.00" r="4">
         <title>2026-09-05: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="934.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="898.00" cy="370.00" r="4">
         <title>2026-09-06: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="970.00" cy="256.00" r="4">
+      <circle class="ct-point" cx="934.00" cy="256.00" r="4">
         <title>2026-09-07: 4 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="1006.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="970.00" cy="370.00" r="4">
         <title>2026-09-08: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="1042.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="1006.00" cy="370.00" r="4">
         <title>2026-09-09: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="1078.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="1042.00" cy="370.00" r="4">
         <title>2026-09-10: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="1114.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="1078.00" cy="370.00" r="4">
         <title>2026-09-11: 0 contributions</title>
       </circle>
     
-      <circle class="ct-point" cx="1150.00" cy="370.00" r="4">
+      <circle class="ct-point" cx="1114.00" cy="370.00" r="4">
         <title>2026-09-12: 0 contributions</title>
+      </circle>
+    
+      <circle class="ct-point" cx="1150.00" cy="370.00" r="4">
+        <title>2026-09-13: 0 contributions</title>
       </circle>
     
     </g>
@@ -306,29 +306,27 @@
   <!-- Labels -->
   <g class="ct-labels">
     
-        <text class="ct-label ct-horizontal" x="70.00" y="392" text-anchor="middle">Aug 13</text>
+        <text class="ct-label ct-horizontal" x="70.00" y="392" text-anchor="middle">Aug 14</text>
       
-        <text class="ct-label ct-horizontal" x="178.00" y="392" text-anchor="middle">Aug 16</text>
+        <text class="ct-label ct-horizontal" x="178.00" y="392" text-anchor="middle">Aug 17</text>
       
-        <text class="ct-label ct-horizontal" x="286.00" y="392" text-anchor="middle">Aug 19</text>
+        <text class="ct-label ct-horizontal" x="286.00" y="392" text-anchor="middle">Aug 20</text>
       
-        <text class="ct-label ct-horizontal" x="394.00" y="392" text-anchor="middle">Aug 22</text>
+        <text class="ct-label ct-horizontal" x="394.00" y="392" text-anchor="middle">Aug 23</text>
       
-        <text class="ct-label ct-horizontal" x="502.00" y="392" text-anchor="middle">Aug 25</text>
+        <text class="ct-label ct-horizontal" x="502.00" y="392" text-anchor="middle">Aug 26</text>
       
-        <text class="ct-label ct-horizontal" x="610.00" y="392" text-anchor="middle">Aug 28</text>
+        <text class="ct-label ct-horizontal" x="610.00" y="392" text-anchor="middle">Aug 29</text>
       
-        <text class="ct-label ct-horizontal" x="718.00" y="392" text-anchor="middle">Aug 31</text>
+        <text class="ct-label ct-horizontal" x="718.00" y="392" text-anchor="middle">Sep 1</text>
       
-        <text class="ct-label ct-horizontal" x="754.00" y="392" text-anchor="middle">Sep 1</text>
+        <text class="ct-label ct-horizontal" x="826.00" y="392" text-anchor="middle">Sep 4</text>
       
-        <text class="ct-label ct-horizontal" x="826.00" y="392" text-anchor="middle">Sep 3</text>
+        <text class="ct-label ct-horizontal" x="934.00" y="392" text-anchor="middle">Sep 7</text>
       
-        <text class="ct-label ct-horizontal" x="934.00" y="392" text-anchor="middle">Sep 6</text>
+        <text class="ct-label ct-horizontal" x="1042.00" y="392" text-anchor="middle">Sep 10</text>
       
-        <text class="ct-label ct-horizontal" x="1042.00" y="392" text-anchor="middle">Sep 9</text>
-      
-        <text class="ct-label ct-horizontal" x="1150.00" y="392" text-anchor="middle">Sep 12</text>
+        <text class="ct-label ct-horizontal" x="1150.00" y="392" text-anchor="middle">Sep 13</text>
       
   </g>
 </svg>
